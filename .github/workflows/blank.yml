@@ -48,4 +48,4 @@ jobs:
           aws s3 cp \
             --recursive \
             --region ap-northeast-2 \
-            dist s3://ryudevpublicbucket/public/
+            build s3://ryudevpublicbucket/public/
